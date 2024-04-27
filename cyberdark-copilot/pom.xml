@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cc.cyberdark</groupId>
+	<artifactId>cyberdark-copilot</artifactId>
+	<version>0.1</version>
+	<name>Cyberdark Copilot</name>
+	<description>Discord Bot</description>
+	<dependencies>
+		<!-- local -->
+		<dependency>
+			<groupId>cc.cyberdark</groupId>
+			<artifactId>console-coat-craft</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.dv8tion/JDA -->
+		<dependency>
+			<groupId>net.dv8tion</groupId>
+			<artifactId>JDA</artifactId>
+			<version>5.0.0-beta.23</version>
+		</dependency>
+	</dependencies>
+</project>
