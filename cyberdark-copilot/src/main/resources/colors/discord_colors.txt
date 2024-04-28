@@ -1,0 +1,6 @@
+BlueishBlack=\033[2;40m
+RustBrown=\033[2;41m
+Gray=\033[2;42m
+LightGray=\033[2;46m
+Blurple=\033[2;45m
+CreamWhite=\033[2;47m
