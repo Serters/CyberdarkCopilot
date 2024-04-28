@@ -1,5 +1,6 @@
 package cc.cyberdark.copilot;
 
+import cc.cyberdark.utils.ColorUtils;
 import cc.cyberdark.copilot.commands.CommandManager;
 
 import javax.security.auth.login.LoginException;
@@ -11,6 +12,7 @@ import net.dv8tion.jda.api.sharding.ShardManager;
 public class CyberdarkCopilot {
 
 	private ShardManager shardManager;	
+	
 	
 	public CyberdarkCopilot() throws LoginException {
 		
@@ -27,7 +29,9 @@ public class CyberdarkCopilot {
 	}
 
 	public static void main(String[] args) {
-
+		
+		ColorUtils.importBackgroundColors("discord_colors");
+		
 		try {
 			CyberdarkCopilot cyberdarkCopilot = new CyberdarkCopilot();
 		} catch (LoginException e) {
