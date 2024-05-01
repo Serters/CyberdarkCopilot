@@ -11,34 +11,29 @@ import net.dv8tion.jda.api.sharding.ShardManager;
 
 public class CyberdarkCopilot {
 
-	private ShardManager shardManager;	
-	
-	
+	private ShardManager shardManager;
+
 	public CyberdarkCopilot() throws LoginException {
-		
-		DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(SECRET.getTOKEN());
+
+		DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(System.getenv("TOKEN"));
 		builder.setStatus(OnlineStatus.ONLINE);
-		builder.setActivity(Activity.watching("Porodično Blago"));
-		
+		builder.setActivity(Activity.watching("you!"));
+
 		this.shardManager = builder.build();
 		this.shardManager.addEventListener(new CommandManager());
 	}
-	
-	public ShardManager getSharedManager() {
-		return shardManager;
-	}
 
 	public static void main(String[] args) {
-		
+
 		ColorUtils.importBackgroundColors("discord_colors");
-		
+
 		try {
+			System.out.println("Cyberdark Copilot:");
 			CyberdarkCopilot cyberdarkCopilot = new CyberdarkCopilot();
 		} catch (LoginException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
 
 }
