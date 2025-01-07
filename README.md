@@ -31,3 +31,11 @@
 <div align="center">
   <img src="https://github.com/Serters/CyberdarkCopilot/blob/main/readme-resources/horizontal-flag.png" width="100%">
 </div>
+
+---
+
+3. **Color Options**:
+`/coloroptions`
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Serters/CyberdarkCopilot/refs/heads/main/readme-resources/discord-colors.png" width="100%">
+</div>
