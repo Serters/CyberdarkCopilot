@@ -17,7 +17,9 @@
 3. **Multiple Flag Types**: Generate horizontal or vertical flags to fit various design needs.
 
 ## Examples
-
+> [!NOTE]  
+> Discord supports a limited number of colors.
+ 
 1. **Vertical Flag**:
 `/verticalflag colors: Blurple, Gray, RustBrown`
 <div align="center">
